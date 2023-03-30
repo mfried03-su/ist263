@@ -1,0 +1,30 @@
+body {background-color: #FEFBE9;}
+body {color: #000000;}
+a {color: #2d7337;}
+a:hover {color: #1a4321;}
+h1, h2 {color: #2b3467;}
+nav {background-color: #183a1d84; 
+    display: inline;
+    padding: 10px;
+    margin-bottom: 10px;}
+nav a {color: #ffffffdc;}
+nav a:hover {background-color: #ffffffdc;}
+.quote {float: right;}
+.firstrow, .secondrow {display: flex; margin: 10px; padding: 20px; border-radius: 1em;}
+.firstrow {background-color: #cce5ff;}
+.secondrow {background-color: #98caff; flex-wrap: wrap;}
+.adress, .email, .form {padding: 20px; display: flex;}
+h1 {text-align: center;}
+.icons {width: 10%;}
+.mainskills {display: flex;}
+aside {color:#ffffffdc; background-color:#183a1d84; border-radius: 1em; padding: 20px;}
+.otherskills {color:#ffffffdc}
+.flexbox2 {display: flex;}
+.allskills {display:flex; margin: 10px; padding: 20px;}
+.skillsmain {margin: 10px; padding: 20px}
+.skillscaption {padding-bottom: 20px;}
+.tiedye {max-width: 100%;}
+@media only screen and (max-width: 900px) {
+    nav {max-width: 100%; display: block;}
+    span {display: none;}
+}
