@@ -1,6 +1,5 @@
 body {background-color: #FEFBE9;}
 body {color: #000000;}
-a {color: #2d7337;}
 a:hover {color: #1a4321;}
 h1, h2 {color: #2b3467;}
 nav {background-color: #183a1d84; 
@@ -14,6 +13,7 @@ nav a:hover {background-color: #ffffffdc;}
 .firstrow {background-color: #cce5ff;}
 .secondrow {background-color: #98caff; flex-wrap: wrap;}
 .adress, .email, .form {padding: 20px; display: flex;}
+.email a {color: #000000}
 h1 {text-align: center;}
 .icons {width: 10%;}
 .mainskills {display: flex;}
