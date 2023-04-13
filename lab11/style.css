@@ -32,10 +32,10 @@ aside {color:#ffffffdc; background-color:#183a1d84; border-radius: 1em; padding:
     background-color: #ffbf00;
     padding: 5px;
     border: 1px solid #000000;
-    position: absolute; /*position element relative to top left of viewport*/
+    position: absolute;
     top: 10px;
     left: -999px;
 }
 .skip:focus {
-    left: 10px; /*bring it back when they tab to it*/
+    left: 10px;
 }
