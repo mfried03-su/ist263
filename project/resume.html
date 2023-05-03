@@ -8,92 +8,150 @@
     <link rel="shortcut icon" type="image/x-icon" href="../project/images/favicon-32x32.png">
     <style>
  body {background-color: #FFAA4C; color: #035397; font-family: 'Oswald', sans-serif;}
-        h1 {color: #001E6C;}
-        h2 {color: #001E6C;}
+        h1 {color: #001E6C; text-align: center;}
+        h2 {color: #001E6C; text-align: center;}
+        h2:hover {color:#5089C6;}
+        .edu:hover {color: #001E6C;}
         a {color: #001E6C;}
         a:hover {color:#5089C6;}
-        div {text-align: center; padding: 20px; padding-top: 0px;}
-        .job {font-size: medium; color:#035397}
+        div {padding: 20px; padding-top: 0px;}
+        .mitch, .professional {text-align: center;}
+        .job, .job:hover {font-size: medium; color:#035397; text-align: left;}
+        #job1, #job2, #job3, #job4, #job5, #job6, #job7, #job8, #job9, #job10, #job11 {display: none;}
+        #container {display: flex;}
         @media only screen and (max-width: 900px) {
     nav {max-width: 100%; display: block;}
     span {display: none;}
         }
     </style>
+    <script>
+        function ResumeOff (){
+       document.getElementById('job1').style.display = 'none';
+       document.getElementById('job2').style.display = 'none';
+       document.getElementById('job3').style.display = 'none';
+       document.getElementById('job4').style.display = 'none';
+       document.getElementById('job5').style.display = 'none';
+       document.getElementById('job6').style.display = 'none';
+       document.getElementById('job7').style.display = 'none';
+       document.getElementById('job8').style.display = 'none';
+       document.getElementById('job9').style.display = 'none';
+       document.getElementById('job10').style.display = 'none';
+       document.getElementById('job11').style.display = 'none';
+    }
+    function ProfessionalOn () {
+        document.getElementById ('job1').style.display = 'block';
+        document.getElementById ('job2').style.display = 'block';
+        document.getElementById ('job3').style.display = 'block';
+        document.getElementById ('job4').style.display = 'block';
+        document.getElementById ('job5').style.display = 'block';
+    }
+    function LeadershipOn () {
+        document.getElementById ('job6').style.display = 'block';
+        document.getElementById ('job7').style.display = 'block';
+        document.getElementById ('job8').style.display = 'block';
+        document.getElementById ('job9').style.display = 'block';
+    }
+    function SkillsOn () {
+        document.getElementById ('job10').style.display = 'block';
+    }
+    function CourseOn () {
+        document.getElementById ('job11').style.display = 'block';
+    }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav><a href="homepage.html">Home</a> <span>|</span> <a href=resume.html>Resume</a> <span>|</span> <a href=experience.html>Experience</a> <span>|</span> <a href="https://www.linkedin.com/in/mitchellfriedman1/" target="_blank">My LinkedIn Profile</a></nav>
-<div>
-    <div>
+    <div class="mitch">
     <h1>Mitchell Friedman</h1>
-    mfried03@syr.edu | 908.947.5233 | 117 Eastwick Court, Hillsborough, NJ 08844 <br>
+    mfried03@syr.edu | 908.947.5233 | 117 Eastwick Court, Hillsborough, NJ 08844
+    <h2 class="edu">EDUCATION</h2>
+    Syracuse University, College of Arts and Sciences Syracuse, NY <br>
+    Bachelor of Arts, Psychology, Marketing Anticipated Graduation: May 2023;
+    GPA: 3.31
     </div>
+    <div id="container">
     <div>
-        <h2>EDUCATION</h2>
-        Syracuse University, College of Arts and Sciences Syracuse, NY <br>
-        Bachelor of Arts, Psychology, Marketing Anticipated Graduation: May 2023;
-        GPA: 3.31
-    </div>
-    <div>
-        <h2>PROFESSIONAL EXPERIENCE</h2>
+        <h2 onclick="ResumeOff (); ProfessionalOn ();">PROFESSIONAL EXPERIENCE</h2>
+        <div id="job1">
         <h2 class="job">Syracuse University’s Student Engagement <br> 
-        Lead January 2022 – Present</h2> <br>
+        Lead January 2022 – Present</h2>
         • Interview, hire, and manage student employees <br>
         Student Office Assistant September 2021 – December 2021 <br>
         • Oversee and schedule room reservations for student and administrative organizations on 
-        campus <br>
+        campus
+        </div><br>
+        <div id="job2">
         <h2 class="job">Prudential Financial Newark, NJ <br>
-        Customer Experience- Journey Management Intern May 2022 – August 2022</h2> <br>
+        Customer Experience- Journey Management Intern May 2022 – August 2022</h2>
         • Created customer personas using internal and external data <br>
         • Facilitated journey mapping and design sprints with multiple teams <br>
         • Identified common themes and misalignments with products and developed customer-centric 
-        solutions with the UX designers <br>
+        solutions with the UX designers 
+        </div><br>
+        <div id="job3">
         <h2 class="job">Union for Reform Judaism Camp Harlam <br>
         Cabin Counselor Summers 2019-2021 </h2>
         • Utilized problem-solving and leadership skills to support 10 to 15-year-olds at overnight 
         camp; wrote and ran programs, including camp-wide programming and staff programming <br>
-        • Collaborated with staff to shape the future of camp through the Olim Fellowship Program <br>
+        • Collaborated with staff to shape the future of camp through the Olim Fellowship Program 
+        </div><br>
+        <div id="job4">
         <h2 class="job">Foundation for Jewish Camp’s MESH Internship Virtual Experience <br>
         Intern November 2020 – December 2020 </h2>
         • Learned about Mental, Emotional, and Social Health (MESH) and how to positively<br> 
         impact children’s, teenager’s, and other’s well-being with a cohort of summer camp 
         counselors<br>
-        • Wrote programs to be executed at summer camps to help support new staff<br>
+        • Wrote programs to be executed at summer camps to help support new staff
+        </div><br>
+        <div id="job5">
         <h2 class="job">Alfonso's Trattoria 
         Cashier & Delivery August 2018 – August 2020 </h2>
+        </div>
     </div>
     <div>
-        <h2>LEADERSHIP & CAMPUS INVOLVEMENT</h2>
+        <h2 onclick="ResumeOff (); LeadershipOn();">LEADERSHIP & CAMPUS INVOLVEMENT</h2>
+        <div id="job6">
         <h2 class="job">Deans’ Team <br>
         Student Ambassador May 2021 - Present </h2>
-        • Consult with prospective student families to share the advantages of attending Syracuse University<br>
-       <h2 class="job"> Syracuse University’s First Year Seminar <br> 
+        • Consult with prospective student families to share the advantages of attending Syracuse University
+        </div><br>
+        <div id="job7">
+        <h2 class="job"> Syracuse University’s First Year Seminar <br> 
         TA August 2022 - December 2022 </h2>
         • Guide first-year and transfer students in conversations centered on DEIA and 
-        transitioning to school<br>
+        transitioning to school
+        </div><br>
+        <div id="job8">
         <h2 class="job">Winston Fisher Seminar <br> 
         Cohort Member April 2021 </h2>
         • Networked with Syracuse University alumni, field-experts, and students with liberal-arts 
         backgrounds to explore career paths in the business sector and develop important and 
-        necessary on-the-job skills <br>
+        necessary on-the-job skills
+        </div><br>
+        <div id="job9">
         <h2 class="job">NFTY – Garden Empire Region<br> 
         Communications Vice President April 2017 –October 2019</h2>
         • Orchestrated weekend-long events for 300 teenagers in collaboration with a peer board<br>
         • Organized Instagram, Twitter, and Facebook for effective outreach and community 
         engagement<br>
-        • Maintained organization at executive and general board meetings as a notetaker<br>
+        • Maintained organization at executive and general board meetings as a notetaker
+        </div><br>
     </div>
     <div>
-        <h2>Skills and Certifications</h2>
+        <h2 onclick="ResumeOff (); SkillsOn ();">Skills and Certifications</h2>
+        <div id="job10">
         Skills: Microsoft Office, Miro, Canva, Social Media Outreach, 25Live, Journey Mapping, Design 
         Sprints<br>
         Certifications: Google Digital Garage’s Fundamentals of Digital Marketing, Google Ads Search 
         Certification, HubSpot’s Growth Driven Design, Youth Mental Health and First Aid
+        </div>
     </div>
     <div>
-        <h2>Pertinent Coursework</h2>
+        <h2 onclick="ResumeOff (); CourseOn ();">Pertinent Coursework</h2>
+        <div id="job11">
         MAR 300, 301, and 455: In these courses I learned fundamental rules and practices of marketing. I 
         did casual and formal market research and presented on these topics. <br>
         PSY 205, 322, 400, and COG 301: I learned basic and advanced psychology information as well 
@@ -107,6 +165,7 @@
         EEE 370 and CAS 490: Learned entrepreneurship principles and worked to bring a barebones 
         company idea to fruition along with team members. Showcased my creativity and analytical 
         research skills to share the functionality of our product.
+        </div>
     </div>
 </div>
 </body>
