@@ -13,6 +13,7 @@
         a:hover {color:#5089C6;}
         img {max-width: 100%;}
         #row1 {display: flex;}
+        .skip {float: right;}
         @media only screen and (max-width: 900px) {
     nav {max-width: 100%; display: block;}
     span {display: none;}
@@ -23,6 +24,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
+    <a href="#main" class="skip" tabindex="1">Skip to Content</a>
     <nav><a href="homepage.html">Home</a> <span>|</span> <a href=resume.html>Resume</a> <span>|</span> <a href=experience.html>Experience</a> <span>|</span> <a href="https://www.linkedin.com/in/mitchellfriedman1/" target="_blank">My LinkedIn Profile</a></nav>
 <div id="container">
     <div id="persona">
@@ -34,7 +36,7 @@
             <img src="images/idealpersona2.png" alt="Ideal Persona 2" id="persona2">
         </div> 
     </div>
-        <p>These are ideal personas Mitchell made for a project at Prudential Financial. Before Mitchell’s 
+        <p id="#main">These are ideal personas Mitchell made for a project at Prudential Financial. Before Mitchell’s 
         colleagues and Mitchell began journey mapping the future state of the product, they must first use the 
         demographic data to form a “consumer” who would be using this product so they can better empathize 
         with the person using this product.</p>

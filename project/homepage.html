@@ -11,9 +11,10 @@
         h1 {color: #001E6C; text-align: center;}
         a {color: #001E6C;}
         a:hover {color:#5089C6;}
-        .text {position: absolute; display: inline;}
-        .presentation {margin-top: 275px;}
+        .text {display: inline;}
+        .presentation {margin-top: 20px;}
         img {max-width: 100%;}
+        .skip {float: right;}
         @media only screen and (max-width: 900px) {
     nav {max-width: 100%; display: block;}
     span {display: none;}
@@ -24,10 +25,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
+    <a href="#main" class="skip" tabindex="1">Skip to Content</a>
     <nav><a href="homepage.html">Home</a> <span>|</span> <a href=resume.html>Resume</a> <span>|</span> <a href=experience.html>Experience</a> <span>|</span> <a href="https://www.linkedin.com/in/mitchellfriedman1/" target="_blank">My LinkedIn Profile</a></nav>
     <div class="text">
     <h1>Mitchell Friedman</h1>
-    <p>I am a student at Syracuse University majoring in psychology and 
+    <p id="#main">I am a student at Syracuse University majoring in psychology and 
         minoring in marketing. I am most interested in cognitive psychology, and I want to use my psychology 
         and marketing knowledge to continue developing my skills to become a CX expert.
     </p>
